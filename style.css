@@ -1,0 +1,36 @@
+body{
+text-align: center;
+ background-image: url("img/184c0e83973bac29fd6b06fa8872d433--creepy-things-creepy-stuff.jpg");
+}
+
+h1{
+background-color: orange
+}
+ul{
+background-color: orange
+
+}
+h2{
+background-color: red
+}
+table {
+  background-color: orange;
+  text-align: center;
+
+}
+
+ th, td {
+  border: 3px double black;
+}
+
+
+.round{
+  border-radius: 50%;
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+
+.border:hover{
+   border-radius: 8px;
+filter: contrast(30%);
+}
